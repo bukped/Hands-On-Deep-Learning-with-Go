@@ -11,10 +11,10 @@ func main() {
 
 	// Define input tensor
 	x := gorgonia.NewScalar(g, gorgonia.Float64, gorgonia.WithName("x"))
-	z := gorgonia.NewScalar(g, gorgonia.Float64, gorgonia.WithName("y"))
+	z := gorgonia.NewScalar(g, gorgonia.Float64, gorgonia.WithName("z"))
 
-	// Define output tensor using Exp() function
-	y := gorgonia.Must(gorgonia.Mul(gorgonia.Must(gorgonia.Exp(x)), z))
+	// Define output tensor using polynomial function
+	y := gorgonia.Must(gorgonia.Add(gorgonia.Must(gorgonia.Mul(x, x)), gorgonia.Must(gorgonia.Mul(x, z))))
 
 	// Create a VM to run the graph
 	machine := gorgonia.NewTapeMachine(g)
