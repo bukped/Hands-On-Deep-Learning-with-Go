@@ -4,46 +4,39 @@ import (
 	"fmt"
 
 	"gorgonia.org/gorgonia"
+	G "gorgonia.org/gorgonia"
 )
 
 func main() {
-	g := gorgonia.NewGraph()
+	g := G.NewGraph()
 
-	// definisi konstanta a dan b
-	a := gorgonia.NewScalar(g, gorgonia.Float64, gorgonia.WithName("a"))
-	b := gorgonia.NewScalar(g, gorgonia.Float64, gorgonia.WithName("b"))
+	a := gorgonia.NewScalar(g, G.Float64, G.WithName("a"))
+	b := gorgonia.NewScalar(g, G.Float64, G.WithName("b"))
 
-	// definisi variabel x dan y
-	x := gorgonia.NewScalar(g, gorgonia.Float64, gorgonia.WithName("x"))
-	y := gorgonia.NewScalar(g, gorgonia.Float64, gorgonia.WithName("y"))
+	x := G.NewScalar(g, G.Float64, G.WithName("x"))
+	y := G.NewScalar(g, G.Float64, G.WithName("y"))
 
-	// persamaan elips ((x/a)^2) + ((y/b)^2) - 1
-	form1 := gorgonia.Must(gorgonia.Pow(x, gorgonia.NewConstant(2.0)))
-	form2 := gorgonia.Must(gorgonia.Pow(y, gorgonia.NewConstant(2.0)))
-	form3 := gorgonia.Must(gorgonia.Pow(a, gorgonia.NewConstant(2.0)))
-	form4 := gorgonia.Must(gorgonia.Pow(b, gorgonia.NewConstant(2.0)))
-	form5 := gorgonia.Must(gorgonia.Div(form1, form3))
-	form6 := gorgonia.Must(gorgonia.Div(form2, form4))
-	form7 := gorgonia.Must(gorgonia.Add(form5, form6))
-	form8 := gorgonia.Must(gorgonia.Sub(gorgonia.NewConstant(1.0), form7))
+	form1 := G.Must(G.Pow(x, G.NewConstant(2.0)))
+	form2 := G.Must(G.Pow(y, G.NewConstant(2.0)))
+	form3 := G.Must(G.Pow(a, G.NewConstant(2.0)))
+	form4 := G.Must(G.Pow(b, G.NewConstant(2.0)))
+	form5 := G.Must(G.Div(form1, form3))
+	form6 := G.Must(G.Div(form2, form4))
+	form7 := G.Must(G.Add(form5, form6))
+	form8 := G.Must(G.Sub(G.NewConstant(1.0), form7))
 
-	// kompilasi dan eksekusi graph
-	machine := gorgonia.NewTapeMachine(g)
+	machine := G.NewTapeMachine(g)
 	defer machine.Close()
 
-	// inisiasi nilai konstanta a dan b
-	gorgonia.Let(a, 2.0)
-	gorgonia.Let(b, 4.0)
+	G.Let(a, 2.0)
+	G.Let(b, 4.0)
+	G.Let(x, 1.0)
+	G.Let(y, 3.0)
 
-	// inisiasi nilai variabel x dan y
-	gorgonia.Let(x, 1.0)
-	gorgonia.Let(y, 3.0)
-
-	// jalankan perhitungan
 	if err := machine.RunAll(); err != nil {
-		fmt.Println(err)
+		fmt.Print(err)
 	}
 
-	// tampilkan hasil
 	fmt.Printf("Hasilnya : %v", form8.Value().Data())
+
 }
