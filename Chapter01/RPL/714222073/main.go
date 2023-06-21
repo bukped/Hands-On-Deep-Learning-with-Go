@@ -3,15 +3,14 @@ package main
 import (
 	"fmt"
 
-	"gorgonia.org/gorgonia"
 	G "gorgonia.org/gorgonia"
 )
 
 func main() {
 	g := G.NewGraph()
 
-	a := gorgonia.NewScalar(g, G.Float64, G.WithName("a"))
-	b := gorgonia.NewScalar(g, G.Float64, G.WithName("b"))
+	a := G.NewScalar(g, G.Float64, G.WithName("a"))
+	b := G.NewScalar(g, G.Float64, G.WithName("b"))
 
 	x := G.NewScalar(g, G.Float64, G.WithName("x"))
 	y := G.NewScalar(g, G.Float64, G.WithName("y"))
