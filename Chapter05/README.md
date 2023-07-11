@@ -21,3 +21,4 @@ Video diunggah ke channel bukupedia university, URL video langsung di list di ba
 
 ## Kelas C
 1. Hasna Zahidah | 1204068 | https://youtu.be/YCWtygqFgOk
+2. Algies Rifkha Fadillah | 1204068 | https://youtu.be/UR4J96wX-B4
