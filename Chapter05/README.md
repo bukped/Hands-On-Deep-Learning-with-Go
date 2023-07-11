@@ -20,3 +20,6 @@ Video diunggah ke channel bukupedia university, URL video langsung di list di ba
 1. Nama | NPM | Link
 
 ## Kelas C
+1. Hasna Zahidah | 1204068 | https://youtu.be/YCWtygqFgOk
+2. Algies Rifkha Fadillah | 1204063 | https://youtu.be/UR4J96wX-B4
+3. Nur Tri Ramadhanti | 1204061 | https://youtu.be/fW5chlTnxL0
