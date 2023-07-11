@@ -20,3 +20,4 @@ Video diunggah ke channel bukupedia university, URL video langsung di list di ba
 1. Nama | NPM | Link
 
 ## Kelas C
+1. Hasna Zahidah | 1204068 | https://youtu.be/YCWtygqFgOk
