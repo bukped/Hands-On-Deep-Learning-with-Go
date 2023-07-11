@@ -25,6 +25,7 @@ Video diunggah ke channel bukupedia university, URL video langsung di list di ba
 8. Mayke Andani Rohmaniar | 1204021 | https://youtu.be/IFsjPRuwEJU
 9. Fauziah Henni Hasibuan | 1204013 | https://youtu.be/UYt4hKrwp3E
 10. Dani ardika rahmadani | 1204016 | https://youtu.be/wCNBiRLzDmA
+11. Surahmat | 1204017 | https://youtu.be/Uw6JtOEnYgg
 ## Kelas B
 1. Nama | NPM | Link
 
