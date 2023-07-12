@@ -1,0 +1,9 @@
+Go atau Golang adalah bahasa pemrograman sumber terbuka yang dibuat di Google pada tahun 2009 oleh Robert Griesemer, Rob Pike, dan Ken Thompson. 
+
+Bahasa ini mudah, sederhana, dan efisien, serta memiliki level yang sama dengan Java. 
+
+Go memiliki fitur pengumpulan sampah, penulisan terstruktur, keamanan memori, dan pemrograman konkuren serta berurutan. 
+
+Bahasa ini juga memiliki kesederhanaan yang baik dan mudah dibaca. 
+
+Go banyak digunakan untuk pengembangan aplikasi web, jaringan, dan cloud computing.
