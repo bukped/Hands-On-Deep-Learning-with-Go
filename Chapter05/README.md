@@ -27,6 +27,7 @@ Video diunggah ke channel bukupedia university, URL video langsung di list di ba
 10. Dani ardika rahmadani | 1204016 | https://youtu.be/wCNBiRLzDmA
 11. Muhammad Nur Fajri | 1204020 | https://youtu.be/r_jmonulfcM
 12. Surahmat | 1204017 | https://youtu.be/Uw6JtOEnYgg
+13. Ade Ilham Permadi | 1194001 | https://youtu.be/wjknUTeI2oo
 ## Kelas B
 1. Nama | NPM | Link
 
