@@ -112,7 +112,7 @@ Materi Kuliah AI, akses github : [https://universitas.bukupedia.co.id/ws/](https
 | 1204022   | Hanan Destiarin Kishendrian | 100 | 100 | 100 | 100 |  |  |
 | 1204025   | Christian Yuda Pratama | 100 | 80 | 100 | 100 |  |  |
 | 1204026   | Haryadi Yusuf | 100 | 100 | 100 | 100 |  |  |
-| 1204027   | Mustika Tiara Triani Br.Sirait | 100 | 90 | 0 | 0 |  |  |
+| 1204027   | Mustika Tiara Triani Br.Sirait | 100 | 90 | 100 | 100 |  |  |
 
 ## Daftar Nilai 3C
 
