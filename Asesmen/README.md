@@ -14,7 +14,7 @@ buku berisi 1-5 orang, format bukupedia diterbitkan sampai selesai keluar nomor 
 1. NPM , Nama , Judul Buku,ISBN, No. SKT
 
 ### Kelas B
-1. NPM , Nama , Judul Buku,ISBN, No. SKT
+1. 1204036 & 1204055, Nawaf Naofal & Muhammad Ilman Aqilaa, Pemrograman Golang Untuk Pemula: Pengolahan Dataset, ISBN, No. SKT
 
 ### Kelas C
 1. NPM , Nama , Judul Buku,ISBN, No. SKT
