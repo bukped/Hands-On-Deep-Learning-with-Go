@@ -14,7 +14,8 @@ buku berisi 1-5 orang, format bukupedia diterbitkan sampai selesai keluar nomor 
 1. NPM , Nama , Judul Buku,ISBN, No. SKT
 
 ### Kelas B
-1. NPM , Nama , Judul Buku,ISBN, No. SKT
+1. 1204037 & 1204041, Muhammad Sapwan Suhadi & Bryan Samperura, Memulai Pemrograman Go
+Panduan Mudah Menggunakan Bahasa Pemrograman Golang, 978-623-88528-3-3, No. SKT
 
 ### Kelas C
 1. NPM , Nama , Judul Buku,ISBN, No. SKT
